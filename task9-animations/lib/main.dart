@@ -112,6 +112,10 @@ SingleTickerProviderStateMixin {
               color: Color.fromARGB(255, 111, 156, 28),
 
             ),
+
+            const SizedBox(
+              height: 100,
+            ),
           ],
         ),
         // child: Container(
