@@ -38,6 +38,7 @@ class _HomePageState extends State<HomePage> {
 
   }
   Widget buildUserListTile(Note note) {
+
   return ListTile(
     title: Text(note.title),
     subtitle: Text(note.text),
@@ -51,7 +52,6 @@ class _HomePageState extends State<HomePage> {
     fetchNotes().then((value) {
       setState(() {
          _notes.addAll(value);
-        
       });
      
       
